@@ -4,7 +4,7 @@ import Back from "../../assets/images/28-removebg-preview.png"
 
 const Card3 = () => {
   return (
-    <div className=' bg-right-bottom bg-no-repeat bg-auto p-10  h-[400px] flex justify-between w-[100%] 
+    <div className=' bg-right-bottom bg-no-repeat items-center bg-auto p-10  h-[500px] flex justify-between w-[100%] 
     sm:flex sm:flex-col sm:h-[500px] sm:p-2
      md:flex md:flex-col md:p-2 md:h-[720px] md:bg-cover
     '
@@ -23,7 +23,7 @@ const Card3 = () => {
     
     </div>
     
-    <div className=' items-center text-[white] h-[330px] ml-5 
+    <div className=' items-center text-[white] h-[330px] ml-5 w-[45%]
     sm:ml-0 sm:p-2 sm:w-[100%]  sm:text-center sm:flex sm:flex-col
     md:ml-0  md:items-center md:flex md:flex-col
     lg:w-[45%]
@@ -34,11 +34,15 @@ const Card3 = () => {
         <p className=' text-center sm:leading-6 sm:text-[12px] md:text-[12px]'>Local thrss operation team on call 24 hours a day, <br className='lg:hidden xl:hidden 2xl:hidden' /> available to
             work at a moment’s notice
         </p>
-       <table className='table-auto 
+        <br />
+
+
+        <div className="flex  flex-col">
+        <table className='table-auto 
        sm:text-center 
        md:text-center
        '>
-       <tbody className='text-[20px] flex justify-between items-center
+       <tbody className='text-[18px] flex justify-between items-center
        sm:text-[12px]  sm:flex sm:justify-between
        md:text-[15px]  md:flex md:justify-between
        '>
@@ -58,12 +62,15 @@ const Card3 = () => {
          </tbody>
 
        </table>
-      
-        <br className='sm:hidden md:hidden' />
-        <br className='sm:hidden lg:hidden'/>
-      <button className='text-[white] p-[5px] flex justify-center items-center rounded-[7px] h-[30px] w-[170px] bg-[#FFB400]
+
+       <button className='text-[white] p-[5px] flex justify-center items-center rounded-[7px] h-[30px] w-[170px] bg-[#FFB400]
       sm:flex sm:text-center sm:w-[80px] sm:items-center sm:text-[10px]
       '>Contact Us</button>
+        </div>
+       
+      
+       
+      
     </div>
 
     <div className=' h-[330px] w-[45%] ml-10 sm:hidden md:hidden

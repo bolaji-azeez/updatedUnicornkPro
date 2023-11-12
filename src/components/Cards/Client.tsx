@@ -2,7 +2,7 @@
 
 const Client = () => {
   return (
-    <div className='bg-[1239AC] text-center h-[300px] items-center flex flex-col p-5
+    <div className='bg-[1239AC] text-center h-[400px] items-center justify-center flex flex-col 
     sm:h-[400px] sm:p-5 
     md:h-[380px] md:p-3 
     '>

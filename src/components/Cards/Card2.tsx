@@ -3,7 +3,7 @@ import Afro from "../../assets/images/afro-woman.jpg"
 
 const Card2 = () => {
   return (
-    <div className=' p-10 h-[430px] bg-[white] flex justify-between 
+    <div className=' p-10 h-[500px] bg-[white] flex justify-between items-center
      sm:p-2 sm:flex sm:flex-col sm:h-[480px] sm:items-center
      md:p-2 md:flex md:flex-col md:h-[700px] md:items-center
      
@@ -14,10 +14,10 @@ const Card2 = () => {
           src={Afro} />
       </div>
 
-      <div className=' items-center ml-10 sm:ml-0 md:ml-0  sm:text-center  md:text-center lg:w-[50%]'>
+      <div className=' items-center h-[350px] w-[45%] ml-10 sm:ml-0 md:ml-0  sm:text-center  md:text-center lg:w-[50%]'>
         <h3 className='text-[#474545] text-[40px] text-center leading-10 sm:leading-9 sm:text-[30px] sm:p-[0] sm:font-bold sm:text-center md:leading-10 md:text-[40px] md:font-bold md:text-center'> We are committed to give <br className="sm:hidden md:hidden" /> our best service</h3>
         <br className="sm:hidden md:hidden" />
-        <div className='h-[100px] w-[650px] flex justify-center items-center shadow-md  sm:hidden md:hidden lg:h-[80px] lg:w-[470px]'>
+        <div className='h-[100px] w-[550px] flex justify-center items-center border-l-[blue]  shadow-md sm:hidden md:hidden lg:h-[80px] lg:w-[470px]'>
           <p className='p-7 text-center sm:p-1 sm:text-[15px] md:text-center'>Local operation team on call 24 hours a day, available to
               work at a moment’s notice
           </p>

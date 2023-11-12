@@ -4,9 +4,9 @@ import Boy from "../../assets/images/withbg.jpg"
 import Window from "../../assets/images/side-view-adult.jpg"
 
 
-const Works = () => {
+const Works:React.FC = () => {
   return (
-    <div className='h-[500px] text-center bg-[white] 
+    <div className='h-[550px] text-center bg-[white] items-center
     sm:h-[750px] sm:p-2
     md:h-[850px] md:p-2
     '>
