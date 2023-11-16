@@ -9,10 +9,10 @@ const UserDashboard:React.FC = () => {
     <div className=''>
         <DashboradLayout />
         <Outlet />
-        <div className='mt-[100px] ml-[340px] h-[500px]  mr-[40px] text-[white] rounded-[5px] ]'>
-            <div className='h-[400px] bg-[#1239ac]  flex justify-around items-center w-[70%] border-2'>
+        <div className=' shadow-lg mt-[100px] ml-[340px] h-[500px]  mr-[40px] text-[grey] rounded-[5px] ]'>
+            <div className='h-[400px]   flex justify-around items-center w-[70%] border-2'>
                 <div>
-                  <div className=' flex  h-[200px] w-[200px] bg-[white] border-2 text-[white] '>
+                  <div className=' flex  h-[200px] w-[200px] border-2 text-[grey] '>
                   
                   </div>
                   <br />

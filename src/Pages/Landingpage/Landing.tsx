@@ -9,10 +9,10 @@ import Works from '../../components/Cards/Works'
 import CountDown from '../../components/Cards/CountDown'
 import Services from '../../components/Cards/Services'
 import Client from '../../components/Cards/Client'
-import Footer from '../../components/Blocks/Footer'
+ import Footer from '../../components/Blocks/Footer'
 // import Blog from '../../components/Cards/Blog'
 
-const Landing = () => {
+const Landing:React.FC = () => {
   return (
     <div className='bg-[rgb(18,57,172)] w-[100%] min-h-[90vh]'>
       <Timer />
@@ -20,12 +20,14 @@ const Landing = () => {
          <Card1 />
         <Card2 />
         <Card3 />
-        <Works />
+        <Services />
         <CountDown />
+        <Works />
+       
         <PaymentCard />
         <Client />
-        <Services />
-        <Footer />
+         
+          <Footer />
          
        
         

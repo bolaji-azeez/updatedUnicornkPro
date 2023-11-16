@@ -6,8 +6,11 @@ import {BiLogoGmail} from "react-icons/bi"
 
 const Footer:React.FC = () => {
   return (
-    <div className=' flex  justify-between  bg-[#1239AC] h-[300px] p-[50px] gap-[250px] '>
-         <div className=' flex flex-col '>
+    <div className=' flex  justify-between  bg-[#1239AC] h-[300px] p-[50px] gap-[250px]
+    md:flex md:flex-col md:h-[500px] 
+
+    '>
+         <div className=''>
                 <div className='h-[90px]  w-[270px]'>
                 <img className='h-[100%] w-[100%]'
                 src={Unicorn} alt="" />
@@ -22,9 +25,11 @@ const Footer:React.FC = () => {
                 </div>
             </div>
             
-        <div className='flex h-[300px]  gap-[100px] text-[white] cursor-pointer'>
+        <div className='flex h-[300px]  gap-[100px] text-[black] cursor-pointer
+         md:flex md:flex-col 
+         '>
            
-            <div>
+            <div className='  '>
                 <h2 className='font-bold text-[white]'>HOME</h2>
                 <p>About us</p>
                 <p>Services</p>

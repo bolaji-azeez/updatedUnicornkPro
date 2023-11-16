@@ -80,7 +80,7 @@ import React from 'react'
 const Services:React.FC = () => {
   return (
     <div>
-      <div className='h-[500px] text-[#666666] bg-[white] flex flex-col items-center p-[50px]'>
+      <div className=' text-[#666666] bg-[white] flex flex-col gap-[20px] items-center p-[50px]'>
 
       <p  className=''>What We Do</p>
       <h3 className='text-[30px]'>Our Most Popular Cleaning Service</h3>
@@ -89,8 +89,8 @@ const Services:React.FC = () => {
       </p>
       <br />
 
-      <div className='flex justify-between gap-[20px] items-center h-[250px] w-full border bg-[white] border-none'>
-        <div className=' rounded-md shadow-lg flex flex-col h-[200px] bg-[white] w-[370px]'>
+      <div className='flex justify-between gap-[20px] items-center h-[350px] w-full border bg-[white] border-none'>
+        <div className=' rounded-md shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]'>
         <p className='text-[14px] p-5'>
           A clean and hygieic offices is a more productive 
                   place for your staff to work and a more pleasant 
@@ -100,7 +100,7 @@ const Services:React.FC = () => {
           </p>
         </div>
 
-        <div className=' rounded-md shadow-lg flex flex-col h-[200px] bg-[white] w-[370px]'>
+        <div className=' rounded-md shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]'>
           <p className='text-[14px] p-5'>
           A clean and hygieic offices is a more productive 
                   place for your staff to work and a more pleasant 
@@ -110,7 +110,42 @@ const Services:React.FC = () => {
           </p>
         </div>
 
-        <div className='rounded-md shadow-lg flex flex-col h-[200px] bg-[white] w-[370px]'>
+        <div className='rounded-md shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]'>
+        <p className='text-[14px] p-5'>
+          A clean and hygieic offices is a more productive 
+                  place for your staff to work and a more pleasant 
+                  place for your for your client to visit. We provide 
+                  hight quality,cost effective office cleaning solution 
+                  and currently work with a number <br /> of companies across lagos
+          </p>
+        </div>
+
+        
+        
+      </div>
+
+      <div className='flex justify-between gap-[20px] items-center h-[350px] w-full border bg-[white] border-none'>
+        <div className=' rounded-md shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]'>
+        <p className='text-[14px] p-5'>
+          A clean and hygieic offices is a more productive 
+                  place for your staff to work and a more pleasant 
+                  place for your for your client to visit. We provide 
+                  hight quality,cost effective office cleaning solution 
+                  and currently work with a number <br /> of companies across lagos
+          </p>
+        </div>
+
+        <div className=' rounded-md shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]'>
+          <p className='text-[14px] p-5'>
+          A clean and hygieic offices is a more productive 
+                  place for your staff to work and a more pleasant 
+                  place for your for your client to visit. We provide 
+                  hight quality,cost effective office cleaning solution 
+                  and currently work with a number <br /> of companies across lagos
+          </p>
+        </div>
+
+        <div className='rounded-md shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]'>
         <p className='text-[14px] p-5'>
           A clean and hygieic offices is a more productive 
                   place for your staff to work and a more pleasant 

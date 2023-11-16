@@ -5,6 +5,7 @@ export default {
   "./src/**/*.{js,ts,jsx,tsx}",
   "/node_modules/tw-elements/dist/js/**/*.js"
   ],
+  
   theme: {
     
     colors: {},
@@ -16,6 +17,12 @@ export default {
       boxShadow: {
         '4xl': '0 60px 60px -15px rgba(0, 0, 0.3, 0.5)',
       }
+    },
+    skew: {
+      '17': '17deg',
+    },
+    rotate: {
+      '17': '17deg',
     },
     screens: {
       sm: { min: "300px", max: "767px" },

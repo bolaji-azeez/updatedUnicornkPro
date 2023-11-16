@@ -1,14 +1,18 @@
 
 import Clearner from "../../assets/images/cleaner.jpg"
 import Back from "../../assets/images/28-removebg-preview.png"
+import { GiCheckMark } from "react-icons/gi";
+import Bubble from "../../assets/bubble-light.png"
 
 const Card3 = () => {
   return (
-    <div className=' bg-right-bottom bg-no-repeat items-center bg-auto p-10  h-[500px] flex justify-between w-[100%] 
+    <div className='relative bg-right-bottom bg-no-repeat items-center bg-auto p-10   h-[650px] flex justify-between w-[100%] 
     sm:flex sm:flex-col sm:h-[500px] sm:p-2
      md:flex md:flex-col md:p-2 md:h-[720px] md:bg-cover
     '
     style={{backgroundImage: `url(${Back})`}}
+    
+    
 
     >
     <div className='ml-10 h-[350px] w-[45%] 
@@ -23,57 +27,71 @@ const Card3 = () => {
     
     </div>
     
-    <div className=' items-center text-[white] h-[330px] ml-5 w-[45%]
+    <div className=' text-[white] h-[350px] ml-5 w-[45%]  text-left
     sm:ml-0 sm:p-2 sm:w-[100%]  sm:text-center sm:flex sm:flex-col
     md:ml-0  md:items-center md:flex md:flex-col
     lg:w-[45%]
     '>
-      <h3 className='text-[white] text-[40px] text-center font-semibold
+      <p className="">ONE TIME / RECURRING</p>
+      <h3 className='text-[white] text-[30px] text-left font-semibold
         sm:leading-9 
       '> Commercial Cleaning</h3>
-        <p className=' text-center sm:leading-6 sm:text-[12px] md:text-[12px]'>Local thrss operation team on call 24 hours a day, <br className='lg:hidden xl:hidden 2xl:hidden' /> available to
-            work at a moment’s notice
+      
+        <p className=' text-left sm:leading-6 sm:text-[12px] md:text-[12px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, quasi. Maiores.
         </p>
         <br />
+        <div className="flex justify-between items-center h-[150px] w-[400px] ">
+          <div className="flex flex-col gap-3">
+            <div className="text-[yellow] flex items-center gap-3">
+            <GiCheckMark />
+            <p className="text-[white]">Ofice</p>
+            </div>
+            <div className="text-[yellow] flex items-center gap-3">
+            <GiCheckMark />
+            <p className="text-[white]">Medical Facilities</p>
+            </div>
+            <div className="text-[yellow] flex items-center gap-3">
+            <GiCheckMark />
+            <p className="text-[white]">Resturant</p>
+            </div>
+            <div className="text-[yellow] flex items-center gap-3">
+            <GiCheckMark />
+            <p className="text-[white]">Government Facilities</p>
+            </div>
+            
+          </div>
+          <div className="m-5 flex flex-col gap-3">
+            <div className="text-[yellow] flex items-center gap-3">
+            <GiCheckMark />
+            <p className="text-[white]">Shop</p>
+            </div>
+            <div className="text-[yellow] flex items-center gap-3">
+            <GiCheckMark />
+            <p className="text-[white]">Factories</p>
+            </div>
+            <div className="text-[yellow] flex items-center gap-3">
+            <GiCheckMark />
+            <p className="text-[white]">Airport</p>
+            </div>
+            <div className="text-[yellow] flex items-center gap-3">
+            <GiCheckMark />
+            <p className="text-[white]">Showroom</p>
+            </div>
+            
+          </div>
 
-
-        <div className="flex  flex-col">
-        <table className='table-auto 
-       sm:text-center 
-       md:text-center
-       '>
-       <tbody className='text-[18px] flex justify-between items-center
-       sm:text-[12px]  sm:flex sm:justify-between
-       md:text-[15px]  md:flex md:justify-between
-       '>
-            <tr className='flex flex-col leading-10 sm:leading-7  md:leading-7  sm:text-left md:text-left'>
-            <td>Office</td>
-            <td>Medical Facility</td>
-            <td>Restaurant</td>
-            <td>Government Facilities</td>
-            </tr>
-            <tr className='flex flex-col leading-10 ml-20  sm:leading-7 sm:ml-13 md:leading-7 md:ml-13 sm:text-left  md:text-left'>
-            <td>Shop</td>
-            <td>Factories</td>
-            <td>Airports</td>
-            <td>Showrooms</td>
-            </tr>
-   
-         </tbody>
-
-       </table>
-
-       <button className='text-[white] p-[5px] flex justify-center items-center rounded-[7px] h-[30px] w-[170px] bg-[#FFB400]
-      sm:flex sm:text-center sm:w-[80px] sm:items-center sm:text-[10px]
-      '>Contact Us</button>
         </div>
+        <br />
+
+        <button className='text-[white] transition ease-in duration-700 flex justify-center  items-center text-center rounded-[7px] h-[55px] w-[170px] bg-[#06278a] sm:none'>Free Estimate</button>
+       
        
       
        
       
     </div>
 
-    <div className=' h-[330px] w-[45%] ml-10 sm:hidden md:hidden
+    <div className='relative h-[430px] w-[40%]  ml-10 sm:hidden md:hidden
   
     '>
     <img
@@ -82,6 +100,16 @@ const Card3 = () => {
     
     </div>
     <br className='sm:hidden lg:hidden'/>
+
+
+    <div className="absolute h-[100px] w-[250px] scale-75 translate-x-4 skew-y-3 bg-[blue] right-8 top-3">
+
+    </div>
+
+    <div className="absolute top-3 left-3 " >
+      <img src={Bubble} alt="" />
+
+    </div>
     
   </div>
   )

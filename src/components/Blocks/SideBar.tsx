@@ -1,9 +1,9 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+
 
 const Sidebar:React.FC = () => {
   return (
-    <div className='w-[300px] h-[580px] shadow-lg border-2 text-[white] rounded-[10px] top-5 left-5 bottom-0 bg-[#1239ac]    p-5 fixed flex  items-center flex-col
+    <div className='w-[300px] h-[580px] shadow-lg border-2 text-[white] rounded-[10px] top-5 left-5 bottom-0 bg-[white]    p-5 fixed flex  items-center flex-col
    
     '>
 

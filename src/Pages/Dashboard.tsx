@@ -13,7 +13,7 @@ const Dashboard:React.FC = () => {
       <DashboradLayout />
       <Outlet />
       <div className=' mt-[100px] ml-[340px] h-[500px]  mr-[40px] rounded-[5px]'>
-       <div className=' h-[300px] bg-[#1239ac] text-[#1239ac] rounded-[10px] border-2 p-2'>
+       <div className=' h-[300px] bg-[white] rounded-[10px] border-2 p-2'>
           <div className=' rounded-[5px] h-[60px] text-[20px] text-[#1239ac] font-bold flex justify-between items-center  bg-[white] border-2 p-5'>
             
               <div>
@@ -62,7 +62,7 @@ const Dashboard:React.FC = () => {
                <br />
           <div className='flex justify-between pl-5 pr-5 items-center text-[white] '>
             <div className='flex justify-between  gap-3  items-center'>
-              <div className='h-[20px] justify-betweenrounded-sm w-[20px] border text-1'></div>
+              <div className='h-[20px] justify-between rounded-sm w-[20px] border text-1'></div>
               <p className='p-0'>Amara Vera</p>
             </div>
             
